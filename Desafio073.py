@@ -1,0 +1,16 @@
+tabela = ('Palmeiras', 'Internacional', 'Flamengo', 'Fluminense', 'Corinthians', 'Athletico-PR', 'Atlético-MG',
+          'América-MG', 'Goias', 'Santos', 'Bragantino', 'Botafogo', 'São Paulo', 'Ceará', 'Fortaleza', 'Coritiba',
+          'Cuiabá', 'Avaí', 'Atlético-GO', 'Juventude')
+print(f'COLOCAÇÃO BRASILEIRÃO SÉRIE A (12/09): ', tabela)
+print('-='*150)
+print('OS 5 PRIMEIROS COLOCADOS SÃO:')
+print(tabela[0:5])
+print('-='*150)
+print('OS TIMES DA ZONA DE REBAIXAMENTO SÃO')
+print(tabela[-4:])
+print('-='*150)
+print('OS TIMES EM ORDEM ALFABÉTICA')
+print(sorted(tabela))
+print('-='*150)
+print('O INTERNACIONAL ESTÁ EM QUAL COLOCAÇÃO?')
+print(f'O Internacional está na {tabela.index("Internacional")+1}ª colocação.')
